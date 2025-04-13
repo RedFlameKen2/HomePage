@@ -11,5 +11,6 @@ Custom homepage for a more personalized start page.
     - [ ] frontend
     - [ ] logic
 
+* [ ] create SVG assets
 * [ ] improve design
 * [ ] customization options
