@@ -40,10 +40,24 @@ input[name="search_input"]{
 }
 
 .quick_link {
-    width: 15%;
+    padding: 15px;
+    width: 10%;
     color: var(--anti-flash-white);
 }
 
-.quick_link img {
-    width: 100%;
+.quick_link a {
+    text-decoration: none;
+    color: var(--anti-flash-white);
+}
+
+.quick_link_image {
+    background-color: var(--anti-flash-white);
+    aspect-ratio: 1;
+    border-radius: 25px;
+    display: flex;
+}
+
+.quick_link_image img {
+    height: 70%;
+    margin: auto;
 }
