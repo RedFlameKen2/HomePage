@@ -1,0 +1,49 @@
+@import "colors.css";
+@import "fonts.css";
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--space-cadet);
+}
+
+.content_container {
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+    margin-top: 10vh;
+}
+
+.search_container {
+    width: 90%;
+    margin: auto;
+}
+
+.homepage_header {
+    color: var(--anti-flash-white);
+}
+
+input[name="search_input"]{
+    background-color: var(--cool-gray);
+    color: var(--anti-flash-white);
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+}
+
+.quick_links {
+    display: flex;
+}
+
+.quick_link {
+    width: 15%;
+    color: var(--anti-flash-white);
+}
+
+.quick_link img {
+    width: 100%;
+}

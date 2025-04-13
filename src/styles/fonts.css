@@ -1,0 +1,11 @@
+:root {
+    --input-font-size: 16pt;
+}
+
+.input_font {
+    font-size: var(--input-font-size);
+}
+
+.text_centered {
+    text-align: center;
+}
