@@ -5,7 +5,7 @@ Custom homepage for a more personalized start page.
 # TODO:
 * [ ] search bar
     - [ ] frontend
-    - [ ] logic
+    - [x] logic
 
 * [ ] quick links
     - [ ] frontend
