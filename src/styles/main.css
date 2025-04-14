@@ -4,7 +4,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: var(--space-cadet);
+    background-color: var(--van-dyke);
 }
 
 .content_container {
@@ -22,14 +22,14 @@ body {
 }
 
 .homepage_header {
-    color: var(--anti-flash-white);
+    color: var(--dun);
 }
 
 input[name="search_input"]{
-    background-color: var(--cool-gray);
-    color: var(--anti-flash-white);
+    background-color: transparent;
+    color: var(--dun);
     font-weight: bold;
-    border: none;
+    border: solid var(--dun);
     border-radius: 15px;
     padding: 20px;
     width: 100%;
@@ -42,16 +42,16 @@ input[name="search_input"]{
 .quick_link {
     padding: 15px;
     width: 10%;
-    color: var(--anti-flash-white);
+    color: var(--dun);
 }
 
 .quick_link a {
     text-decoration: none;
-    color: var(--anti-flash-white);
+    color: var(--dun);
 }
 
 .quick_link_image {
-    background-color: var(--anti-flash-white);
+    /* background-color: var(--dun); */
     aspect-ratio: 1;
     border-radius: 25px;
     display: flex;
