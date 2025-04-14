@@ -33,7 +33,7 @@ init_actions();
     */
 function hide_labels_event(hide){
     const link_labels = document.getElementsByClassName("quick_link_label");
-    const display = hide ? "none" : "flex";
+    const display = hide ? "none" : "unset";
     for(let i = 0; i < link_labels.length; i++){
         link_labels[i].setAttribute("style", "display: " + display + ";");
     }
