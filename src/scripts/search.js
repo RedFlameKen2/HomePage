@@ -1,6 +1,6 @@
 // @ts-check
 
-var search_url = "https://duckduckgo.com/"
+var search_url = "https://duckduckgo.com/?q="
 
 /**
     * @param {string} query 
@@ -18,8 +18,8 @@ function search_action(query){
     */
 function is_link(query){
     if(query.indexOf("www.") > -1 || query.indexOf(".com") > -1){
+        alert("islink");
         return true;
     }
     return false;
 }
-
