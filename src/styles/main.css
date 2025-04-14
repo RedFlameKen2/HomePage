@@ -1,7 +1,9 @@
 @import "colors.css";
+@import "keyframes.css";
 @import "fonts.css";
 
 body {
+    font-family: Jetbrains Mono;
     padding: 0;
     margin: 0;
     background-color: var(--van-dyke);
@@ -22,6 +24,9 @@ body {
 }
 
 .homepage_header {
+    font-size: var(--header-big-font-size);
+    padding: 20px;
+    animation: fade-in-down 1s;
     color: var(--dun);
 }
 
@@ -33,19 +38,29 @@ input[name="search_input"]{
     border-radius: 15px;
     padding: 20px;
     width: 100%;
+    outline: none;
 }
 
 .quick_links {
     display: flex;
 }
 
+.quick_link a:hover,
+.quick_link :focus {
+    animation: scale-up 50ms;
+    transform: scale(1.2);
+}
+
 .quick_link {
     padding: 15px;
     width: 10%;
     color: var(--dun);
+    display: flex;
+    flex-direction: column;
 }
 
 .quick_link a {
+    outline: none;
     text-decoration: none;
     color: var(--dun);
 }

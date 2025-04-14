@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 :root {
-    --input-font-size: 16pt;
+    --input-font-size:          16pt;
+    --header-big-font-size:     32pt;
+}
+
+.jetbrains_font {
+    font-family: Jetbrains Mono;
+}
+
+.header_big {
+    font-size: var(--header-big-font-size);
 }
 
 .input_font {
