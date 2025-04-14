@@ -62,6 +62,10 @@ input[name="search_input"]{
     text-align: center;
 }
 
+.quick_link_label {
+    display: flex;
+}
+
 .quick_link a {
     outline: none;
     text-decoration: none;

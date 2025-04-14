@@ -27,3 +27,26 @@ function init_actions(){
 }
 
 init_actions();
+
+/**
+    * @param {boolean} hide 
+    */
+function hide_labels_event(hide){
+    const link_labels = document.getElementsByClassName("quick_link_label");
+    const display = hide ? "none" : "flex";
+    for(let i = 0; i < link_labels.length; i++){
+        link_labels[i].setAttribute("style", "display: " + display + ";");
+    }
+}
+
+function resize_event(){
+    if(window.innerWidth <= 950){
+        hide_labels_event(true);
+    } else {
+        hide_labels_event(false);
+    }
+}
+
+
+window.addEventListener("resize", resize_event);
+resize_event();
