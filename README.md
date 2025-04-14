@@ -1,6 +1,8 @@
 # HomePage
 Custom homepage for a more personalized start page.
 
+![Screenshot-1](res/screenshot-1.jpg) 
+
 
 # TODO:
 * [ ] search bar
